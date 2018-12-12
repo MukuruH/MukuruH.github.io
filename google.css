@@ -25,10 +25,14 @@ header{
 .mob_coloredwords{
     font-size: 30px;
 }
+.buttons{
+    display: inline-block;
+}
 footer{
-    background: #F6E4E0
+    background: rgb(204, 202, 202)
     
 }
 .main-footer.ul li{
     display: inline;
+    list-style-type: none;
 }
