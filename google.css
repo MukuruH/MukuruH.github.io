@@ -1,34 +1,54 @@
 html{
     display: block;
 }
-
+.wrapper{
+    max-height: 100%;
+    width: 100%;
+}
 body{
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
-
+    
 }
 header{
+    margin-top: 10px;
+    margin-right: 10px;
     background: white;
-    overflow: hidden;
+    
 
 }
-.main-header{
-   
-    text-align: end;
+.main-header div{
+
+    text-align: right;
+    display: inline;
+    float: right;
 }
 .general_body{
     text-align: center;
+    height:400px;
     
 }
 .mob_coloredwords{
-    font-size: 30px;
+    font-size: 50px;
+
+}
+.buttons div {
+
+    display: inline-block;
 }
 footer{
-    background: #F6E4E0
+    margin-bottom: 0;
+    background: rgb(204, 202, 202);
     
 }
-.main-footer.ul li{
-    display: inline;
+.main-footer ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+@media screen and (max-width:700px){
+
+    .mob_coloredwords{
+        font-size: 30px;
+    
+    }
 }
