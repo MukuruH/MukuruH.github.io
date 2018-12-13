@@ -2,7 +2,7 @@
  the design of  the google web. 
  it is expected to look as close to the real deal as possible 
 
-[(MukuruH.github.io/Googl.html)]
+ [the site link](MukuruH.github.io/Googl.html)
 ## MukuruH.github.io/google.css
 
 ### Prerequisites
